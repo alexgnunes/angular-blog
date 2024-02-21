@@ -1,16 +1,11 @@
 <div class="container-big-card">
   <div class="big-card-img">
-    <img src="https://fakeimg.pl/600x400" alt="">
+    <img src="{{photoCover}}">
   </div>
   <div class="big-card-title">
-    <h1><a href=""> Saiu uma nova versao do angular</a></h1>
+    <h1><a [routerLink]="['content',Id]" > {{cardTitle}}</a></h1>
   </div>
   <div class="big-card-description">
-    <p>
-      <a href="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi deserunt, praesentium quasi sapiente
-        accusantium facilis magni, maxime dignissimos doloribus animi iure ut quisquam fuga id. Ad deserunt hic officia
-        maiores.
-      </a>
-    </p>
+    <p><a [routerLink]="['content',Id]">{{cardDescription}}</a></p>
   </div>
 </div>

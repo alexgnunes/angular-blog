@@ -8,6 +8,7 @@ import { MenuTitleComponent } from './componetnts/menu-title/menu-title.componen
 import { BigBoxComponent } from './componetnts/big-box/big-box.component';
 import { SmallBoxComponent } from './componetnts/small-box/small-box.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HomeComponent } from './pages/home/home.component';
     MenuTitleComponent,
     BigBoxComponent,
     SmallBoxComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent
   ],
   imports: [
     BrowserModule,
